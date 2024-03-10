@@ -6,7 +6,9 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.components.SingletonComponent
 
-
+/*
+Hilt에서 모든 Module은 반드시 Component에 지정되어야 한다.
+ */
 @Module
 @InstallIn(ActivityComponent::class)
 //@InstallIn(SingletonComponent::class)
